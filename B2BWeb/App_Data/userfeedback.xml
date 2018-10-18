@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE feedbacks[
+  <!ELEMENT feedbacks (feedback*)>
+  <!ELEMENT feedback (name,email, date, companyName, country, subject, message)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT date (#PCDATA)>
+  <!ELEMENT companyName (#PCDATA)>
+  <!ELEMENT country (#PCDATA)>
+  <!ELEMENT subject (#PCDATA)>
+  <!ELEMENT message (#PCDATA)>
+]>
+<feedbacks>
+  <feedback>
+    <name>tetss</name>
+    <email>aa@gmail.com</email>
+    <companyName>APU</companyName>
+    <country>US</country>
+    <subject>aaa</subject>
+    <message>asdf</message>
+  </feedback>
+  <feedback>
+    <name>Tan Ted Win</name>
+    <email>ted@gmail.com</email>
+    <companyName>BizCom</companyName>
+    <country>UK</country>
+    <subject>Complaint</subject>
+    <message>I would like to report a complaint. My order is taking so long to be approved. I need to use the product ASAP. Please check. My order ID is 2.</message>
+  </feedback>
+  <feedback>
+    <name>Helmi Kahar</name>
+    <email>helmi@gmail.com</email>
+    <date>18/9/2018 12:00:00 AM</date>
+    <companyName>Schlumberger</companyName>
+    <country>MY</country>
+    <subject>Unable to download software</subject>
+    <message>For some reason I cannot download the software I downloaded. The download button does not do anything. My order ID is 4. Please assist me.</message>
+  </feedback>
+  <feedback>
+    <name>Ong Chang Chen</name>
+    <email>ong@gmail.com</email>
+    <date>19/9/2018 6:42:25 PM</date>
+    <companyName>Althea</companyName>
+    <country>CN</country>
+    <subject>Translation to overcome Language Barrier</subject>
+    <message>It would be nice if the website has other languages because some people from non-english-speaking countries might not understand very well.</message>
+  </feedback>
+  <feedback>
+    <name>Miranda Kerr</name>
+    <email>mira@gmail.com</email>
+    <date>19/9/2018 6:49:51 PM</date>
+    <companyName>UbiSoft</companyName>
+    <country>SG</country>
+    <subject>License Renewal</subject>
+    <message>My license for ActiveCampaign is expiring. I bought the product here 3 years ago. How to renew it?</message>
+  </feedback>
+</feedbacks>

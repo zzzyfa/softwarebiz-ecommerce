@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE categories [
+  <!ELEMENT categories (category+)>
+  <!ELEMENT category (name, code)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT code (#PCDATA)>
+]>
+
+
+<categories>
+  <category>
+    <name>Accounting</name>
+    <code>ACC</code>
+  </category>
+<category>
+    <name>Marketing</name>
+    <code>MKT</code>
+  </category>
+<category>
+    <name>Procurement</name>
+    <code>PROC</code>
+  </category>
+</categories>

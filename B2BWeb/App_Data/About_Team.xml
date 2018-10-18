@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE persons [
+  <!ELEMENT persons (person+)>
+  <!ELEMENT person (personName, personAbout, personImage)>
+  <!ELEMENT personName (#PCDATA)>
+  <!ELEMENT personAbout (#PCDATA)>
+  <!ELEMENT personImage (#PCDATA)>
+]>
+
+<persons>
+  <person>
+    <personName>Tiffany Murray</personName>
+    <personAbout>Tiffany has experience as a business analyst for 15 years. Driven by her passion to solve business problems digitally, she founded this company to accomplish just that.</personAbout>
+    <personImage>images/services/1.jpg</personImage>
+  </person>
+  <person>
+    <personName>Jill Grey</personName>
+    <personAbout>Jill is a Subject Matter Expert in Marketing with 10 years of experience. She contributes her knowledge to ensure that the released marketing softwares solve every marketing problem possible.</personAbout>
+    <personImage>images/services/2.jpg</personImage>
+  </person>
+  <person>
+    <personName>Tim Rajatovsky</personName>
+    <personAbout>Tim is a great agile team leader who coordinates the development of our softwares. With 20 years of coding experience, he ensures our softwares are of world-class quality.</personAbout>
+    <personImage>images/services/3.jpg</personImage>
+  </person>
+</persons>

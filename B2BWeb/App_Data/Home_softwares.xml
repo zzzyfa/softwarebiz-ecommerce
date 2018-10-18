@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE softwares [
+  <!ELEMENT softwares (software+)>
+  <!ELEMENT software (softwareName, softwareDescription, softwareImage)>
+  <!ELEMENT softwareName (#PCDATA)>
+  <!ELEMENT softwareDescription (#PCDATA)>
+  <!ELEMENT softwareImage (#PCDATA)>
+]>
+
+<softwares>
+  <software>
+    <softwareName>ACTIVECAMPAIGN</softwareName>
+    <softwareDescription>An all-in-one marketing platform. Grow your business with email, automation, and sales tools. Save time and money using their enterprise level functionality that has been designed for ease of use.</softwareDescription>
+    <softwareImage>activecampaign.png</softwareImage>
+  </software>
+
+  <software>
+    <softwareName>PROCURIFY</softwareName>
+    <softwareDescription>Procurify is a powerful spend management software that empowers your team to spend smarter, faster, easier. Build a proactive spend culture.</softwareDescription>
+    <softwareImage>procurify.png</softwareImage>
+  </software>
+  
+  <software>
+    <softwareName>CALLRAIL</softwareName>
+    <softwareDescription>A phone call tracking and analytics platform that helps businesses understand which marketing campaigns are delivering valuable phone call conversions.</softwareDescription>
+    <softwareImage>callrail-logo.jpg</softwareImage>
+  </software>
+
+  <software>
+    <softwareName>SPROUT SOCIAL</softwareName>
+    <softwareDescription>A leading social media management software that provides engagement, publishing, analytics and team collaboration tools.</softwareDescription>
+    <softwareImage>sproutsocial.png</softwareImage>
+  </software>
+
+</softwares>

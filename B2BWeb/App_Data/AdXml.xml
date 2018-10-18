@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Advertisements [
+  <!ELEMENT Advertisements (Ad+)>
+  <!ELEMENT Ad (ImageUrl, NavigateUrl, AlternateText, Impressions, Keyword)>
+  <!ELEMENT ImageUrl (#PCDATA)>
+  <!ELEMENT NavigateUrl (#PCDATA)>
+  <!ELEMENT AlternateText (#PCDATA)>
+  <!ELEMENT Impressions (#PCDATA)>
+  <!ELEMENT Keyword (#PCDATA)>
+]>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/activecampaign-ad.png</ImageUrl>
+    <NavigateUrl>https://www.activecampaign.com/</NavigateUrl>
+    <AlternateText>Grow your business with email marketing - ActiveCampaign</AlternateText>
+    <Impressions>30</Impressions>
+    <Keyword>ActiveCampaign</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/procurify2.jpg</ImageUrl>
+    <NavigateUrl>https://procurify.com/</NavigateUrl>
+    <AlternateText>Purchasing made ridiculously easy - Procurify</AlternateText>
+    <Impressions>30</Impressions>
+    <Keyword>Procurify</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/callrail-tracking.jpg</ImageUrl>
+    <NavigateUrl>https://www.callrail.com/</NavigateUrl>
+    <AlternateText>Know what makes your phone ring - CallRail</AlternateText>
+    <Impressions>30</Impressions>
+    <Keyword>CallRail</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/sproutsocial-ad.jpg</ImageUrl>
+    <NavigateUrl>https://www.sproutsocial.com/</NavigateUrl>
+    <AlternateText>Form real connections with those who love your brand - Sprout Social</AlternateText>
+    <Impressions>30</Impressions>
+    <Keyword>SproutSocial</Keyword>
+  </Ad>
+</Advertisements>

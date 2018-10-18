@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE countries [
+  <!ELEMENT countries (country+)>
+  <!ELEMENT country (name, code)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT code (#PCDATA)>
+]>
+
+<countries>
+  <country>
+    <name>China</name>
+    <code>CN</code>
+  </country>
+  <country>
+    <name>India</name>
+    <code>IN</code>
+  </country>
+  <country>
+    <name>Indonesia</name>
+    <code>ID</code>
+  </country>
+  <country>
+    <name>Malaysia</name>
+    <code>MY</code>
+  </country>
+  <country>
+    <name>Singapore</name>
+    <code>SG</code>
+  </country>
+</countries>

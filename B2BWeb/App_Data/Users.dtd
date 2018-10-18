@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT Users (User+)>
+<!ELEMENT User (fullName, companyName, role, country, password, position)>
+<!ELEMENT fullName (#PCDATA)>
+<!ELEMENT companyName (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ATTLIST User email CDATA #REQUIRED>
+

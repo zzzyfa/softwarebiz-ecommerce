@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Users SYSTEM "Users.dtd"[]>
+<Users>
+  <User email="assyfa@gmail.com">
+    <fullName>Assyfa Amany</fullName>
+    <companyName>APU</companyName>
+    <role>HR Manager</role>
+    <country>SG</country>
+    <password>assyfa123</password>
+    <position>customer</position>
+  </User>
+  <User email="yusrina@gmail.com">
+    <fullName>Yusrina Nor</fullName>
+    <companyName>SoftwareBiz</companyName>
+    <role>Website Administrator</role>
+    <country>MY</country>
+    <password>yusrina123</password>
+    <position>admin</position>
+  </User>
+  <User email="felix@gmail.com">
+    <fullName>Felix Yap</fullName>
+    <companyName>SoftwareBiz</companyName>
+    <role>Manager</role>
+    <country>MY</country>
+    <password>felix123</password>
+    <position>manager</position>
+  </User>
+</Users>
+

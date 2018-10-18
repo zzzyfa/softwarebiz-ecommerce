@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE payments[
+  <!ELEMENT payments (payment*)>
+  <!ELEMENT payment (datePayment, userID, amount, cardNo, expiry, cvv)>
+  <!ATTLIST payment id CDATA #REQUIRED>
+  <!ELEMENT datePayment (#PCDATA)>
+  <!ELEMENT userID (#PCDATA)>
+  <!ELEMENT amount (#PCDATA)>
+  <!ELEMENT cardNo (#PCDATA)  >
+  <!ELEMENT expiry (#PCDATA)>
+  <!ELEMENT cvv (#PCDATA)>
+]>
+<payments>
+  <payment id="1">
+    <datePayment>15/9/2018 12:00:00 AM</datePayment>
+    <userID>1</userID>
+    <amount>20.00</amount>
+    <cardNo>123331</cardNo>
+    <expiry>11/22</expiry>
+    <cvv>123</cvv>
+  </payment>
+</payments>
